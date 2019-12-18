@@ -1,6 +1,7 @@
 import express from 'express';
 import calculadora from './calculadora'
 import cors from 'cors';
+import router from './calculadora';
 const app = express();
 
 app.use(express.json());
@@ -13,3 +14,4 @@ app.listen(3000, () =>
 console.log('Servidor rodando na porta 3000'),
 
 );
+

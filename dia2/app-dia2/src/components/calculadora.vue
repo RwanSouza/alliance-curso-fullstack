@@ -47,7 +47,7 @@
         </b-row>
         <hr />
         <b-row>
-            <b-col sm="8">Total calculado</b-col>
+            <b-col sm="8">Total calculado.</b-col>
             <b-col>{{somaTudo}}</b-col>
         </b-row>
       </div>
