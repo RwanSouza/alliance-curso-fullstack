@@ -83,7 +83,7 @@ export default {
             this.bicicletaAtual = {
                 codigo: bicicleta.codigo,
                 ativo: bicicleta.ativo,
-                isNew: false
+                isNew: 
             }
             this.$root.$emit('bv::show::modal', 'editaBicicleta');
         },
